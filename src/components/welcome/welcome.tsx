@@ -20,7 +20,7 @@ export default function Welcome() {
 				<Link
 					className="mt-6 sm:mt-0"
 					target="_blank"
-					href={'https://github.com/vitorFRE'}
+					href={'https://github.com/vitorFRE/kiiro-template'}
 				>
 					<Button
 						borderRadius="4px"
