@@ -8,5 +8,10 @@ Para iniciar o template rode os comandos
 
 ```bash
   npx create-next-app -e https://github.com/vitorFRE/kiiro-template
+  ou
+  pnpm dlx create-next-app -e https://github.com/vitorFRE/kiiro-
+
   npm run dev
+  ou
+  pnpm dev
 ```
