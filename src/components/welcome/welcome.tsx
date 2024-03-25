@@ -4,7 +4,8 @@ import Link from 'next/link'
 
 import { Icons } from '@/components/icons'
 import { LampContainer } from '@/components/lamp'
-import { Button } from '@/components/moving-border'
+
+import { Button } from '../ui/button'
 
 export default function Welcome() {
 	return (
@@ -22,10 +23,7 @@ export default function Welcome() {
 					target="_blank"
 					href={'https://github.com/vitorFRE/kiiro-template'}
 				>
-					<Button
-						borderRadius="4px"
-						className="font-interFont inline-flex items-center gap-4 rounded bg-yellow-400 px-4 py-2 font-bold text-black hover:bg-yellow-400/70"
-					>
+					<Button className="font-interFont inline-flex items-center gap-4 rounded bg-yellow-400 px-4 py-2 font-bold text-black hover:bg-yellow-400/70">
 						<Icons.github />
 						<span>Github</span>
 					</Button>
